@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon3 from "../assets/img/github-mark-white.svg";
+
 import { HashLink } from "react-router-hash-link";
-import { BrowserRouter as Router } from "react-router-dom";
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -28,81 +28,82 @@ const NavBar = () => {
   };
 
   return (
-    <Router>
-      <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
-        <Container>
-          <Navbar.Brand href="#home">
+    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+      <Container>
+        <Navbar.Brand href="#home">
+          <HashLink to="/#home">
             <img src={logo} alt="Logo" />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <span className="navbar-toggler-icon"></span>
-          </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav>
-              <Nav.Link
-                href="#home"
-                className={
-                  activeLink === "home" ? "active navbar-link" : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("home")}
+          </HashLink>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <span className="navbar-toggler-icon"></span>
+        </Navbar.Toggle>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav>
+            <Nav.Link
+              as={HashLink}
+              to="/#home"
+              className={
+                activeLink === "home" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("home")}
+            >
+              Home
+            </Nav.Link>
+            <Nav.Link
+              as={HashLink}
+              to="/#skills"
+              className={
+                activeLink === "skills" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("skills")}
+            >
+              Skills
+            </Nav.Link>
+            <Nav.Link
+              as={HashLink}
+              to="/#projects"
+              className={
+                activeLink === "projects" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("projects")}
+            >
+              Projects
+            </Nav.Link>
+          </Nav>
+          <span className="navbar-text ms-auto">
+            <div className="social-icon">
+              <a
+                href="https://www.linkedin.com/in/kaiyi-w-387bb32a2/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Home
-              </Nav.Link>
-              <Nav.Link
-                href="#skills"
-                className={
-                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("skills")}
+                <img src={navIcon1} alt="LinkedIn" />
+              </a>
+              <a
+                href="https://www.facebook.com/kaiyi.wu.37/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Skills
-              </Nav.Link>
-              <Nav.Link
-                href="#projects"
-                className={
-                  activeLink === "projects"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("projects")}
+                <img src={navIcon2} alt="Facebook" />
+              </a>
+              <a
+                href="https://github.com/kaiyi17?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Projects
-              </Nav.Link>
-            </Nav>
-            <span className="navbar-text ms-auto">
-              <div className="social-icon">
-                <a
-                  href="https://www.linkedin.com/in/kaiyi-w-387bb32a2/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={navIcon1} alt="LinkedIn" />
-                </a>
-                <a
-                  href="https://www.facebook.com/kaiyi.wu.37/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={navIcon2} alt="Facebook" />
-                </a>
-                <a
-                  href="https://www.instagram.com/kaiyi.wu.37/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={navIcon3} alt="Instagram" />
-                </a>
-              </div>
-              <HashLink to="#connect">
-                <button className="navConnectBtn">
-                  <span>Let's Connect</span>
-                </button>
-              </HashLink>
-            </span>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </Router>
+                <img src={navIcon3} alt="Github" />
+              </a>
+            </div>
+            <HashLink to="/#connect">
+              <button className="navConnectBtn">
+                <span>Let's Connect</span>
+              </button>
+            </HashLink>
+          </span>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 

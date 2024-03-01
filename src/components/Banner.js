@@ -4,7 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/portrait2.png";
 import { HashLink } from "react-router-hash-link";
-import { BrowserRouter as Router } from "react-router-dom";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -56,37 +55,35 @@ const Banner = () => {
   };
 
   return (
-    <Router>
-      <section className="banner" id="home">
-        <Container>
-          <Row className="align-items-center">
-            <Col xs={12} md={6} xl={7}>
-              <h1>
-                {`Hi I'm `}
-                <span className="myName">Kaiyi Wu</span>
-                {` a `}
-              </h1>
-              <div className="wrap">{text}</div>
-              <p>
-                Code artisan crafting digital magic. I'm not just a developer;
-                I'm a storyteller, turning each project into a narrative of
-                problems solved with creativity and precision. Ready to bring a
-                unique blend of technical skills and imaginative solutions to
-                the tech scene.
-              </p>
-              <HashLink smooth to="#projects" className="button-link">
-                <button>
-                  Step Into My World of Code <ArrowRightCircle size={25} />
-                </button>
-              </HashLink>
-            </Col>
-            <Col xs={12} md={6} xl={5}>
-              <img src={headerImg} alt="Headder Img" />
-            </Col>
-          </Row>
-        </Container>
-      </section>
-    </Router>
+    <section className="banner" id="home">
+      <Container>
+        <Row className="align-items-center">
+          <Col xs={12} md={6} xl={7}>
+            <h1>
+              {`Hi I'm `}
+              <span className="myName">Kaiyi Wu</span>
+              {` a `}
+            </h1>
+            <div className="wrap">{text}</div>
+            <p>
+              Code artisan crafting digital magic. I'm not just a developer; I'm
+              a storyteller, turning each project into a narrative of problems
+              solved with creativity and precision. Ready to bring a unique
+              blend of technical skills and imaginative solutions to the tech
+              scene.
+            </p>
+            <HashLink smooth to="#projects" className="button-link">
+              <button>
+                Step Into My World of Code <ArrowRightCircle size={25} />
+              </button>
+            </HashLink>
+          </Col>
+          <Col xs={12} md={6} xl={5}>
+            <img src={headerImg} alt="Headder Img" />
+          </Col>
+        </Row>
+      </Container>
+    </section>
   );
 };
 
