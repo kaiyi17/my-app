@@ -39,11 +39,11 @@ const ProjectsData = [
   },
   {
     id: 4,
-    title: "E-Commerce BackOffice System",
+    title: "BackOffice System",
     description:
       "Led the development of an E-Commerce BackOffice System using Spring Boot, Thymeleaf, and Bootstrap, improving operational efficiency for online retail platforms.Engineered a centralized system for real-time order processing, payment information management, and account maintenance, streamlining administrative tasks for customer service representatives.Conducted thorough unit testing to ensure component reliability and performance, maintaining high code quality standards.",
     imgUrl: projImg4,
-    path: "e-commerce-backoffice-system",
+    path: "backoffice-system",
     demo: "http://57.151.115.89:8080/",
     code: "https://github.com/kaiyi17/backoffice-springboot",
     technologies: ["SpringBoot", "Thymeleaf", "Bootstrap"],
