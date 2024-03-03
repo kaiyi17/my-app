@@ -1,6 +1,7 @@
 import projImg1 from "../assets/img/TravelAdvisorApp.png";
 import projImg2 from "../assets/img/DinSumResturant.png";
 import projImg3 from "../assets/img/HotelUrbanNest.png";
+import projImg4 from "../assets/img/e-commerce.png";
 
 const ProjectsData = [
   {
@@ -28,15 +29,24 @@ const ProjectsData = [
   {
     id: 3,
     title: "Hotel Reservation",
-    description: "PHP, Twig, Weather API",
+    description:
+      "Developed a dynamic website integrating PHP and Twig template engine to provide real-time weather updates and related information. Utilizing PHP for backend processing and Twig for rendering dynamic front-end pages, the site ensures content is dynamically displayed and efficiently updated. Additionally, the platform features an admin backend login interface, allowing for the management of all bookings. This comprehensive system enables administrators to efficiently oversee reservation details and adjust schedules, ensuring a seamless operation.",
     imgUrl: projImg3,
     path: "hotel-reservation",
+    demo: "#",
+    code: "https://github.com/kaiyi17/Hoteml-Management-PHP",
+    technologies: ["PHP", "Twig"],
   },
   {
     id: 4,
-    title: "Business Startup",
-    description: "Design & Development",
-    imgUrl: projImg1,
+    title: "E-Commerce BackOffice System",
+    description:
+      "Led the development of an E-Commerce BackOffice System using Spring Boot, Thymeleaf, and Bootstrap, improving operational efficiency for online retail platforms.Engineered a centralized system for real-time order processing, payment information management, and account maintenance, streamlining administrative tasks for customer service representatives.Conducted thorough unit testing to ensure component reliability and performance, maintaining high code quality standards.",
+    imgUrl: projImg4,
+    path: "hotel-reservation",
+    demo: "http://57.151.115.89:8080/",
+    code: "https://github.com/kaiyi17/backoffice-springboot",
+    technologies: ["SpringBoot", "Thymeleaf", "Bootstrap"],
   },
   {
     id: 5,
