@@ -21,20 +21,6 @@ const ProjectDetail = () => {
     window.open(project.code, "_blank");
   };
 
-  const projectImageStyle = `
-    .project-detail-container .project-image::before {
-      content: '';
-      background-image: url(${project.imgUrl});
-      opacity: 0.5;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-    }
-  `;
-
   return (
     <div className="project-detail-container">
       <div className="project-image">
