@@ -33,7 +33,7 @@ const ProjectsData = [
       "Developed a dynamic website integrating PHP and Twig template engine to provide real-time weather updates and related information. Utilizing PHP for backend processing and Twig for rendering dynamic front-end pages, the site ensures content is dynamically displayed and efficiently updated. Additionally, the platform features an admin backend login interface, allowing for the management of all bookings. This comprehensive system enables administrators to efficiently oversee reservation details and adjust schedules, ensuring a seamless operation.",
     imgUrl: projImg3,
     path: "hotel-reservation",
-    demo: "#",
+    demo: "http://57.151.115.89/finalproject/hotel-reservation/public/index.php",
     code: "https://github.com/kaiyi17/Hoteml-Management-PHP",
     technologies: ["PHP", "Twig"],
   },
