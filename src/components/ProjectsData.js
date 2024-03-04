@@ -2,7 +2,7 @@ import projImg1 from "../assets/img/TravelAdvisorApp.png";
 import projImg2 from "../assets/img/DinSumResturant.png";
 import projImg3 from "../assets/img/HotelUrbanNest.png";
 import projImg4 from "../assets/img/e-commerce.png";
-import projImg5 from "../assets/img/comingsoon.jpg";
+import projImg5 from "../assets/img/comingsoon.png";
 const ProjectsData = [
   {
     id: 1,
