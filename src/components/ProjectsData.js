@@ -2,7 +2,7 @@ import projImg1 from "../assets/img/TravelAdvisorApp.png";
 import projImg2 from "../assets/img/DinSumResturant.png";
 import projImg3 from "../assets/img/HotelUrbanNest.png";
 import projImg4 from "../assets/img/e-commerce.png";
-
+import projImg5 from "../assets/img/comingsoon.jpg";
 const ProjectsData = [
   {
     id: 1,
@@ -50,15 +50,21 @@ const ProjectsData = [
   },
   {
     id: 5,
-    title: "Business Startup",
+    title: "Coming Soon",
     description: "Design & Development",
-    imgUrl: projImg2,
+    imgUrl: projImg5,
+    demo: "#",
+    code: "#",
+    technologies: [],
   },
   {
     id: 6,
-    title: "Business Startup",
+    title: "Coming Soon",
     description: "Design & Development",
-    imgUrl: projImg3,
+    imgUrl: projImg5,
+    demo: "#",
+    code: "#",
+    technologies: [],
   },
 ];
 
