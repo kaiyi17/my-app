@@ -12,7 +12,7 @@ const ProjectsData = [
     imgUrl: projImg1,
     path: "travel-advisor-app",
     demo: "https://travel-advisor-app-group-4.vercel.app/",
-    code: "https://github.com/kaiyi17/Dimsum-Restaurant",
+    code: "https://github.com/kaiyi17/TravelAdvisorApp",
     technologies: ["React", "TypeScript", "ChakraUI", "Google Maps API"],
   },
   {
@@ -23,14 +23,15 @@ const ProjectsData = [
     imgUrl: projImg2,
     path: "dim-sum-resturant",
     demo: "https://dimsum-restaurant.vercel.app/index.html",
-    code: "https://github.com/kaiyi17/TravelAdvisorAppt",
+    code: "https://github.com/kaiyi17/Dimsum-Restaurant",
     technologies: ["HTML5", "CSS", "JavaScript"],
   },
   {
     id: 3,
     title: "Hotel Reservation",
     description:
-      "Developed a dynamic website integrating PHP and Twig template engine to provide real-time weather updates and related information. Utilizing PHP for backend processing and Twig for rendering dynamic front-end pages, the site ensures content is dynamically displayed and efficiently updated. Additionally, the platform features an admin backend login interface, allowing for the management of all bookings. This comprehensive system enables administrators to efficiently oversee reservation details and adjust schedules, ensuring a seamless operation.",
+      "Developed a dynamic website integrating PHP and Twig template engine to provide real-time weather updates and related information. Utilizing PHP for backend processing and Twig for rendering dynamic front-end pages, the site ensures content is dynamically displayed and efficiently updated. Additionally, the platform features an admin backend login interface, allowing for the management of all bookings. This comprehensive system enables administrators to efficiently oversee reservation details and adjust schedules, ensuring a seamless operation.
+      Username: Admin, Password: admin123",
     imgUrl: projImg3,
     path: "hotel-reservation",
     demo: "http://57.151.115.89/finalproject/hotel-reservation/public/index.php",
