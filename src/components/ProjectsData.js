@@ -51,10 +51,11 @@ const ProjectsData = [
   },
   {
     id: 5,
-    title: "Market Management",
+    title: "Super Saver Market Management",
     description:
       "Developed a Super Saver Market Management System with ASP.NET Core and Bootstrap, focusing on backend efficiency and role-specific access. Features include Azure SQL Server, custom validations, and secure authentication. The system streamlines order and inventory management for sales and inventory departments. Access is tiered: unregistered users see only the home page, registered users access transactions, and department-specific accounts have tailored privileges. Credentials for Sales: Username: sale@gmail.com, Password: Sale@123; Inventory: Username: inventory@gmail.com, Password: Inventory@123.",
     imgUrl: projImg5,
+    path: "super-saver-market-management",
     demo: "https://supersavermarketmanagement.azurewebsites.net/",
     code: "https://github.com/kaiyi17/SuperSaverMarketManagement",
     technologies: [
