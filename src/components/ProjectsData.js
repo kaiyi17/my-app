@@ -24,14 +24,23 @@ const ProjectsData = [
     imgUrl: projImg2,
     path: "dim-sum-resturant",
     demo: "https://dimsum-restaurant.vercel.app/index.html",
+<<<<<<< HEAD
     code: "https://github.com/kaiyi17/TravelAdvisorApp",
+=======
+    code: "https://github.com/kaiyi17/Dimsum-Restaurant",
+>>>>>>> e9ca43fb8ddbe5dd1f5858b73301d98f9af2e43b
     technologies: ["HTML5", "CSS", "JavaScript"],
   },
   {
     id: 3,
     title: "Hotel Reservation",
     description:
+<<<<<<< HEAD
       "Developed a dynamic website integrating PHP and Twig template engine to provide real-time weather updates and related information. Utilizing PHP for backend processing and Twig for rendering dynamic front-end pages, the site ensures content is dynamically displayed and efficiently updated. Additionally, the platform features an admin backend login interface, allowing for the management of all bookings. This comprehensive system enables administrators to efficiently oversee reservation details and adjust schedules, ensuring a seamless operation. Username: Admin, Password:admin123",
+=======
+      "Developed a dynamic website integrating PHP and Twig template engine to provide real-time weather updates and related information. Utilizing PHP for backend processing and Twig for rendering dynamic front-end pages, the site ensures content is dynamically displayed and efficiently updated. Additionally, the platform features an admin backend login interface, allowing for the management of all bookings. This comprehensive system enables administrators to efficiently oversee reservation details and adjust schedules, ensuring a seamless operation.
+      Username: Admin, Password: admin123",
+>>>>>>> e9ca43fb8ddbe5dd1f5858b73301d98f9af2e43b
     imgUrl: projImg3,
     path: "hotel-reservation",
     demo: "http://57.151.115.89/finalproject/hotel-reservation/public/index.php",
