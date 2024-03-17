@@ -2,7 +2,8 @@ import projImg1 from "../assets/img/TravelAdvisorApp.png";
 import projImg2 from "../assets/img/DinSumResturant.png";
 import projImg3 from "../assets/img/HotelUrbanNest.png";
 import projImg4 from "../assets/img/e-commerce.png";
-import projImg5 from "../assets/img/comingsoon.png";
+import projImg5 from "../assets/img/marketManagement.png";
+import projImg6 from "../assets/img/comingsoon.png";
 const ProjectsData = [
   {
     id: 1,
@@ -12,7 +13,7 @@ const ProjectsData = [
     imgUrl: projImg1,
     path: "travel-advisor-app",
     demo: "https://travel-advisor-app-group-4.vercel.app/",
-    code: "https://github.com/kaiyi17/Dimsum-Restaurant",
+    code: "https://github.com/kaiyi17/TravelAdvisorApp",
     technologies: ["React", "TypeScript", "ChakraUI", "Google Maps API"],
   },
   {
@@ -23,14 +24,14 @@ const ProjectsData = [
     imgUrl: projImg2,
     path: "dim-sum-resturant",
     demo: "https://dimsum-restaurant.vercel.app/index.html",
-    code: "https://github.com/kaiyi17/TravelAdvisorAppt",
+    code: "https://github.com/kaiyi17/TravelAdvisorApp",
     technologies: ["HTML5", "CSS", "JavaScript"],
   },
   {
     id: 3,
     title: "Hotel Reservation",
     description:
-      "Developed a dynamic website integrating PHP and Twig template engine to provide real-time weather updates and related information. Utilizing PHP for backend processing and Twig for rendering dynamic front-end pages, the site ensures content is dynamically displayed and efficiently updated. Additionally, the platform features an admin backend login interface, allowing for the management of all bookings. This comprehensive system enables administrators to efficiently oversee reservation details and adjust schedules, ensuring a seamless operation.",
+      "Developed a dynamic website integrating PHP and Twig template engine to provide real-time weather updates and related information. Utilizing PHP for backend processing and Twig for rendering dynamic front-end pages, the site ensures content is dynamically displayed and efficiently updated. Additionally, the platform features an admin backend login interface, allowing for the management of all bookings. This comprehensive system enables administrators to efficiently oversee reservation details and adjust schedules, ensuring a seamless operation. Username: Admin, Password:admin123",
     imgUrl: projImg3,
     path: "hotel-reservation",
     demo: "http://57.151.115.89/finalproject/hotel-reservation/public/index.php",
@@ -50,18 +51,26 @@ const ProjectsData = [
   },
   {
     id: 5,
-    title: "Coming Soon",
-    description: "Design & Development",
+    title: "Super Saver Market Management",
+    description:
+      "Developed a Super Saver Market Management System with ASP.NET Core and Bootstrap, focusing on backend efficiency and role-specific access. Features include Azure SQL Server, custom validations, and secure authentication. The system streamlines order and inventory management for sales and inventory departments. Access is tiered: unregistered users see only the home page, registered users access transactions, and department-specific accounts have tailored privileges. Credentials for Sales: Username: sale@gmail.com, Password: Sale@123; Inventory: Username: inventory@gmail.com, Password: Inventory@123.",
     imgUrl: projImg5,
-    demo: "#",
-    code: "#",
-    technologies: [],
+    demo: "https://supersavermarketmanagement.azurewebsites.net/",
+    code: "https://github.com/kaiyi17/SuperSaverMarketManagement",
+    technologies: [
+      "C#",
+      "ASP.NET Core",
+      "Bootstrap",
+      "Azure SQL Server",
+      "Entity Framework Core",
+      "Authentication and Authorization",
+    ],
   },
   {
     id: 6,
     title: "Coming Soon",
     description: "Design & Development",
-    imgUrl: projImg5,
+    imgUrl: projImg6,
     demo: "#",
     code: "#",
     technologies: [],
